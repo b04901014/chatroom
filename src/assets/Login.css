@@ -1,0 +1,17 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+
+  .buttonholder {
+    text-align: center;
+  }
+
+}

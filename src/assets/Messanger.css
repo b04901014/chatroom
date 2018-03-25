@@ -1,0 +1,71 @@
+@media all and (min-width: 100px) {
+  .Messages {
+    padding: 60px;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+  .InputBox {
+    padding: 10px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0 auto;
+    float: right;
+    word-wrap: break-word;
+    width: 400px;
+  }
+
+  .Username {
+    font-size: 10px;
+    margin: 0 auto;
+  }
+
+  .me {
+    display: inline-block;
+    clear: both;
+    padding-right: 15px;
+    float: right;
+    margin-bottom: 2px;
+    max-width: 300px;
+    word-wrap: break-word;
+  }
+
+  .others {
+    display: inline-block;
+    clear: both;
+    padding-left: 15px;
+    margin-bottom: 2px;
+    float: left;
+    max-width: 300px;
+    word-wrap: break-word;
+  }
+
+  .me .Text {
+    background: #eee;
+    border-radius: 20px;
+    padding: 10px;
+    white-space: pre;
+  }
+
+  .others .Text {
+    background: #0084ff;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    white-space: pre;
+  }
+  
+  .me .Username {
+    text-align: right;
+    padding-right: 2px;
+  }
+
+  .others .Username {
+    text-align: left;
+    padding-left: 2px;
+  }
+
+}
