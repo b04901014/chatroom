@@ -33,3 +33,4 @@ Then go to http://localhost:8080.
 * Add Multimessage groups
 * Add upload profile images for users
 * Sound communications
+* Minor optimizations (like the position of input box should be fixed)
