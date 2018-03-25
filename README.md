@@ -24,3 +24,12 @@ npm run start
 
 npm run server
 ```
+
+Then go to http://localhost:8080.
+
+## TODO
+
+* Add authorization
+* Add Multimessage groups
+* Add upload profile images for users
+* Sound communications
