@@ -13,7 +13,7 @@ This project is based on javascript and jsx, creating a multiuser chatroom.
 * [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap)
 * [react-router](https://github.com/ReactTraining/react-router)
 
-##How to run
+## How to run
 
 ```
 git clone https://github.com/b04901014/chatroom.git
