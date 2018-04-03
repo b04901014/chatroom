@@ -29,8 +29,7 @@ Then go to http://localhost:8080.
 
 ## TODO
 
-* Add authorization
-* Add Multimessage groups
+* Prevent direct access to messenger
+* Present all users in current room
 * Add upload profile images for users
 * Sound communications
-* Minor optimizations (like the position of input box should be fixed)
