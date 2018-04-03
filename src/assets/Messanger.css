@@ -68,4 +68,12 @@
     padding-left: 2px;
   }
 
+  .MsgList {
+    float: left;
+    position: fixed;
+  }
+  
+  .Modal .Button {
+    float: right;
+  }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Row, FormGroup, FormControl, ControlLabel } from 'react-bootstrap'
+import { FormGroup, FormControl } from 'react-bootstrap'
 
 class InputBox extends Component {
   constructor(props) {
@@ -24,7 +24,10 @@ class InputBox extends Component {
   }
 
   onEnterPress(e) {
-    if(e.keyCode == 13 && e.shiftKey == false)
+    var l = this.state.msg.replace(/\s/g, '').length;
+    if (e.keyCode === 13 && l === 0 && e.shiftKey === false)
+      e.preventDefault();
+    else if (e.keyCode === 13 && e.shiftKey === false)
       this.handleSubmit(e);
   }
 

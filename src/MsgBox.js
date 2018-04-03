@@ -1,6 +1,4 @@
 import React, { Component } from "react"
-import { Grid } from 'react-bootstrap'
-import io from 'socket.io-client'
 import Message from "./Message"
 
 //var history = [];
@@ -35,7 +33,7 @@ class MsgBox extends Component {
         {this.state.hist.map((data, index) => {
           return (
             <Message 
-              fromme={this.props.socket.id == data.id}
+              fromme={this.props.socket.id === data.id}
               text={data.msg}
               name={data.name}
             />
