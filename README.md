@@ -12,6 +12,7 @@ This project is based on javascript and jsx, creating a multiuser chatroom.
 * [socket.io](https://github.com/socketio/socket.io)
 * [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap)
 * [react-router](https://github.com/ReactTraining/react-router)
+* [react-modal](https://github.com/reactjs/react-modal)
 
 ## How to run
 
