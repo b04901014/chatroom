@@ -46,6 +46,7 @@ io.on('connection', (socket) => {
     hist.push({name: data.name, msgs:[{id: 'System', msg:"Welcome to a new room!", name: "System"}]});
     socket.join(String(socket.room));
     io.sockets.emit("def_room", {rooms: getname()});
+    io.sockets.in(String(socket.room)).emit("def_hist", {hist: hist[socket.room].msgs});
   });
 
 });

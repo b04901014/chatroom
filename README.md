@@ -13,6 +13,7 @@ This project is based on javascript and jsx, creating a multiuser chatroom.
 * [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap)
 * [react-router](https://github.com/ReactTraining/react-router)
 * [react-modal](https://github.com/reactjs/react-modal)
+* [react-custom-scrollbars](https://github.com/malte-wessel/react-custom-scrollbars)
 
 ## How to run
 
@@ -30,7 +31,6 @@ Then go to http://localhost:8080.
 
 ## TODO
 
-* Prevent direct access to messenger
 * Present all users in current room
 * Add upload profile images for users
 * Sound communications
